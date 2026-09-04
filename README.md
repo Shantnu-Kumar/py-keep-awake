@@ -15,8 +15,6 @@ or when you just don't want your machine locking itself every 5 minutes.
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/py-keep-awake.git
-
 Install dependency:
 pip install pyautogui
 
