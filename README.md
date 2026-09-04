@@ -16,5 +16,22 @@ or when you just don't want your machine locking itself every 5 minutes.
 
 ```bash
 git clone https://github.com/yourusername/py-keep-awake.git
-cd py-keep-awake
+
+Install dependency:
 pip install pyautogui
+
+## 🚀 Usage
+python keep_awake.py
+Stop it anytime with Ctrl+C.
+
+Change the interval
+keep_awake(interval_seconds=300)  # activity every 5 minutes
+
+🧠 How it works
+Windows resets its idle timer on any user input. By moving the mouse
+1 pixel back and forth, the script convinces Windows that you're active —
+without interfering with your work.
+
+⚠️ Disclaimer
+Use responsibly — e.g., during legitimate long-running tasks. Keeping
+work machines artificially awake may violate company IT policies.
